@@ -418,3 +418,78 @@ display: flex;
 justify-content: center;
 color: grey;
 }
+.context2{
+    transform: translateX(20%);
+}
+@media only screen and (max-width: 600px) {
+   .headingtext{
+       font-size: 39px;
+   }
+   body{
+    width: 100%;
+   }
+   .Subheadingtext{
+       font-size: 40px;
+   }
+   .disneyhide{
+       display: none;
+   }
+   .logosize{
+       width: 41px;
+   }
+   .PartnerGoogle{
+       margin-top: 0px !important;
+   }
+   .sectionimage{
+       display: flex;
+       justify-content: center;
+   }
+   .sectionimagecontaint{
+       width: auto;
+   }
+   .paracontent2{
+       margin-left: 0px;
+       margin-right: 0px;
+   }
+   .googlelogo{
+       margin-left: 37px;
+   }
+   .features{
+       min-width: max-content;
+       margin-bottom: 13px;
+   }
+   .cardcontainer{
+       justify-content: flex-start;
+   }
+   .cardwidth{
+       width: auto;
+       transform: translateX(10%);
+   }
+   .footercontentitem{
+    padding-right: 10px;
+   }
+   .ourteam{
+    transform: translateX(21px);
+   }
+   .context1{
+    transform: translateX(21px);
+   }
+   .context2{
+       transform: translateX(20%);
+   }
+   .Projectteam{
+       transform: none;
+   }
+   .blogheading{
+       padding-left: 24px;
+   }
+   .blogheading1{
+       padding-left: 25px;
+   }
+   .blogcard{
+       transform: translateX(21px);
+   }
+   .bottomcardspace{
+       margin-bottom: 21px;
+   }
+  }
